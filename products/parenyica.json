@@ -1,0 +1,17 @@
+{
+    "termek_neve": "HAJDÚ Parenyica Sajt",
+    "marka": "HAJDÚ",
+    "sajttipus": "Parenyica",
+    "tomeg": 180,
+    "aras": 1500,
+    "osszetevok": [
+        "tej",
+        "só",
+        "kalcium-klorid",
+        "tejzára"
+    ],
+    "szallitas": {
+        "szallito": "SajtFutár",
+        "szallitasi_ido": "2-3 munkanap"
+    }
+}

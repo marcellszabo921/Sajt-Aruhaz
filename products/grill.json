@@ -1,0 +1,17 @@
+{
+    "termek_neve": "HAJDÚ Grill Sajt",
+    "marka": "HAJDÚ",
+    "sajttipus": "Grill",
+    "tomeg": 240,
+    "aras": 1900,
+    "osszetevok": [
+        "tej",
+        "só",
+        "kalcium-klorid",
+        "tejzára"
+    ],
+    "szallitas": {
+        "szallito": "SajtFutár",
+        "szallitasi_ido": "5-6 munkanap"
+    }
+}

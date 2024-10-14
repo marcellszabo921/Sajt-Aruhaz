@@ -1,0 +1,17 @@
+{
+    "termek_neve": "Medve Zöldfűszeres Sajt",
+    "marka": "Medve",
+    "sajttipus": "Ömlesztett",
+    "tomeg": 140,
+    "aras": 600,
+    "osszetevok": [
+        "tej",
+        "só",
+        "kalcium-klorid",
+        "tejzára"
+    ],
+    "szallitas": {
+        "szallito": "SajtPostás",
+        "szallitasi_ido": "1 munkanap"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "termek_neve": "Pannónia Ementáli Sajt",
+    "marka": "Pannónia",
+    "sajttipus": "Ementáli",
+    "tomeg": 125,
+    "aras": 800,
+    "osszetevok": [
+        "tej",
+        "só",
+        "kalcium-klorid",
+        "tejzára"
+    ],
+    "szallitas": {
+        "szallito": "SajtLovas",
+        "szallitasi_ido": "1-2 munkanap"
+    }
+}

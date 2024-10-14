@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Magyar Sajt Áruház</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel='stylesheet' href="css/bootstrap.css" type='text/css' />
+    <link rel='stylesheet' href="css/login_overlay.css" type='text/css' />
+    <link rel='stylesheet' href="css/style6.css" type='text/css' />
+    <link rel='stylesheet' href="css/shop.css" type="text/css" />
+    <link rel='stylesheet' href="css/owl.carousel.css" type="text/css" media="all">
+    <link rel='stylesheet' href="css/owl.theme.css" type="text/css" media="all">
+    <link rel='stylesheet' href="css/style.css" type='text/css' />
+    <link rel='stylesheet' href="css/fontawesome-all.css">
+</head>
+
+<body>
+    <div class="banner-top container-fluid" id="home">
+        <!-- header -->
+        <header>
+            <div class="row">
+                <div class="col-md-3 top-info text-left mt-lg-4">
+                    <h6>Kapcsolat</h6>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                        </li>
+                        <li class="number-phone mt-3">+36 20 123 4567</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 logo text-center">
+                    <h1 class="logoa">
+                        <a class="navbar-brand" href="index.html"> Magyar Sajt Áruház </a>
+                    </h1>
+                    <hr>
+                </div>
+
+                <div class="col-md-3 top-info-cart text-right mt-lg-4">
+                    <ul class="cart-inner-info">
+                        <li class="button-log">
+                            <a class="btn-open" href="#">
+                                <span class="fa fa-user" aria-hidden="true"></span>
+                            </a>
+                        </li>
+                        <li class="galssescart galssescart2 cart cart box_1">
+                            <form action="#" method="post" class="last">
+                                <input type="hidden" name="cmd" value="_cart">
+                                <input type="hidden" name="display" value="1">
+                                <button class="top_googles_cart" type="submit" name="submit" value="">
+                                    Kosár
+                                    <i class="fas fa-cart-arrow-down"></i>
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                    <!---->
+                    <div class="overlay-login text-left">
+                        <button type="button" class="overlay-close1">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                        <div class="wrap">
+                            <h5 class="text-center mb-4">Jelentkezz be!</h5>
+                            <div class="login p-5 bg-dark mx-auto mw-100">
+                                <form action="#" method="post">
+                                    <div class="form-group">
+                                        <label class="mb-2">Email cím</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mb-2">Jelszó</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="" required="">
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Pipálj ki</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary submit mb-4">Bejelentkezés</button>
+
+                                </form>
+                            </div>
+                            <!---->
+                        </div>
+                    </div>
+                    <!---->
+                </div>
+            </div>
+            <label class="top-log mx-auto"></label>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-mega mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link ml-lg-0" href="index.html">Kezdőlap
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Rólunk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Áruház</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Kapcsolat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../forras.html">Források</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- banner -->
+        <div class="banner_inner">
+            <div class="services-breadcrumb">
+                <div class="inner_breadcrumb">
+                    <ul class="short">
+                        <li>
+                            <a href="index.html">Kezdőlap</a>
+                            <i>|</i>
+                        </li>
+                        <li>Források</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--//banner -->
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+    <!--/források-->
+    <div class="container">
+        <h1>Források</h1>
+        <ul>
+            <li>
+                <a href="https://digitalcontent.api.tesco.com/v2/media/ghs/09c9e478-0aff-44b6-9a7b-3df2172662e9/snapshotimagehandler_1913454817.jpeg?h=540&w=540">Sajt 1</a>
+            </li>
+            <li>
+                <a href="https://sajtbisztro.hu/wp-content/uploads/2017/06/Medve-Tomlos-sajt-natur-100g.png">Sajt 2</a>
+            </li>
+            <li>
+                <a href="https://kamrashop.hu/wp-content/uploads/2022/02/inyenc-camembert.jpg">Sajt 3</a>
+            </li>
+            <li>
+                <a href="https://foodkamra.hu/3669/hajdu-grill-sajt-240-g-natur.jpg">Sajt 4</a>
+            </li>
+            <li>
+                <a href="https://mizo.hu/files/10/e4/10e4c4f22f576efd21fb4237543e83a4.png">Sajt 5</a>
+            </li>
+            <li>
+                <a href="https://chefmarket.hu/public/upload/product_image/0/97/105/1184jpg-658800334.jpg">Sajt 6</a>
+            </li>
+            <li>
+                <a href="https://cdn1.interspar.at/cachableservlets/articleImage.dam/hu/222027007/dt_sub.jpg">Sajt 7</a>
+            </li>
+            <li>
+                <a href="https://sajtbisztro.hu/wp-content/uploads/2017/06/Pannonia_design_ementa%CC%81li_125g-1.png">Sajt 8</a>
+            </li>
+            <li>
+                <a href="https://github.com/jeffharrell/minicart.git">Minicart JavaScript</a>
+            </li>
+            <li>
+                <a href="https://getbootstrap.com/">bootstrap.css</a>
+            </li>
+            <li>
+                <a href="https://fontawesome.com/v4/">Font Awesome</a>
+            </li>
+            <li>
+                <a href="https://jqueryui.com/download/all/">jQuery css</a>
+            </li>
+            <li>
+                <strong>Utolsó frissítés:</strong> 2024. május 12.
+            </li>
+        </ul>
+    </div>
+    <!--//források-->
+    <!--footer -->
+    <footer class="py-lg-5 py-3">
+        <div class="container-fluid px-lg-5 px-3">
+            <div class="row footer-top-w3layouts">
+                <div class="col-lg-3 footer-grid-w3ls">
+                    <div class="footer-title">
+                        <h3>Rólunk</h3>
+                    </div>
+                    <div class="footer-text">
+                        <p>Kalandozz az ízek világában a mi sajtkollekciónkkal, amely minden ízlésnek és vágyaknak
+                            megfelel! Fedezd fel a világ különböző tájairól származó sajtkészítő mesterek remekeit
+                            egyetlen helyen, ahol a hagyomány és a kreativitás találkozik.</p>
+                        <ul class="footer-social text-left mt-lg-4 mt-3">
+
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-facebook-f"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-google-plus-g"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-linkedin-in"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fas fa-rss"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-vk"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls">
+                    <div class="footer-title">
+                        <h3>Elérhetőség</h3>
+                    </div>
+                    <div class="contact-info">
+                        <h4>Székhely :</h4>
+                        <p>Ebes, Zsong völgy u., 4211, Magyarország.</p>
+                        <div class="phone">
+                            <h4>Kapcsolat :</h4>
+                            <p>Telefonszám : +36 20 123 5678</p>
+                            <p>Email :
+                                <a href="mailto:info@sajtaruhaz.hu">info@sajtaruhaz.hu</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls">
+                    <div class="footer-title">
+                        <h3>Linkek</h3>
+                    </div>
+                    <ul class="links">
+                        <li>
+                            <a href="index.html">Kezdőlap</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Rólunk</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Error</a>
+                        </li>
+                        <li>
+                            <a href="shop.html">Áruház</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Kapcsolat</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls">
+                    <div class="footer-title">
+                        <h3>Hírlevél</h3>
+                    </div>
+                    <div class="footer-text">
+                        <p>Iratkozz fel a hírlevelünkre, hogy azonnal értesülhess a legfrissebb ajánlatainkról.</p>
+                        <form action="#" method="post">
+                            <input class="form-control" type="email" name="Email" placeholder="Írd be az Email címed..."
+                                required="">
+                            <button class="btn1">
+                                <i class="far fa-envelope" aria-hidden="true"></i>
+                            </button>
+                            <div class="clearfix"> </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright mt-4">
+                <p class="copy-right text-center ">&copy; 2024 All Rights Reserved | Készítette Szabó Marcell </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+
+    <!--jQuery-->
+    <script src="jquery/jquery.js"></script>
+    <!-- cart-js -->
+    <script src="js/minicart.js"></script>
+    <script>
+        googles.render();
+
+        googles.cart.on('googles_checkout', function (evt) {
+            var items, len, i;
+
+            if (this.subtotal() > 0) {
+                items = this.items();
+
+                for (i = 0, len = items.length; i < len; i++) { }
+            }
+        });
+    </script>
+    <!-- //cart-js -->
+    <script>
+        $(document).ready(function () {
+            $(".button-log a").click(function () {
+                $(".overlay-login").fadeToggle(200);
+                $(this).toggleClass('btn-open').toggleClass('btn-close');
+            });
+        });
+        $('.overlay-close1').on('click', function () {
+            $(".overlay-login").fadeToggle(200);
+            $(".button-log a").toggleClass('btn-open').toggleClass('btn-close');
+            open = false;
+        });
+    </script>
+    <!-- carousel -->
+    <script src="js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+                    900: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+                        loop: false,
+                        margin: 20
+                    }
+                }
+            })
+        })
+    </script>
+
+    <!-- //end-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 900);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <!--// end-smoth-scrolling -->
+
+    <script src="js/bootstrap.js"></script>
+    <!-- js file -->
+</body>
+
+</html>

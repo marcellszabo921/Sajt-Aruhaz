@@ -1,0 +1,17 @@
+{
+    "termek_neve": "TIHANY Ínyenc Camembert",
+    "marka": "TIHANY",
+    "sajttipus": "Camembert",
+    "tomeg": 300,
+    "aras": 3500,
+    "osszetevok": [
+        "tej",
+        "só",
+        "kalcium-klorid",
+        "tejzára"
+    ],
+    "szallitas": {
+        "szallito": "SajtFutár",
+        "szallitasi_ido": "2-3 munkanap"
+    }
+}

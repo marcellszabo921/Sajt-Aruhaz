@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Magyar Sajt Áruház</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel='stylesheet' href="css/bootstrap.css" type='text/css' />
+    <link rel='stylesheet' href="css/login_overlay.css" type='text/css' />
+    <link rel='stylesheet' href="css/style6.css" type='text/css' />
+    <link rel='stylesheet' href="css/shop.css" type="text/css" />
+    <link rel='stylesheet' href="css/owl.carousel.css" type="text/css" media="all">
+    <link rel='stylesheet' href="css/owl.theme.css" type="text/css" media="all">
+    <link rel='stylesheet' href="css/style.css" type='text/css' />
+    <link rel='stylesheet' href="css/fontawesome-all.css">
+    <link rel='stylesheet' href="css/owl.theme.css" type="text/css" media="all">
+    <link rel='stylesheet' href="css/style.css" type='text/css' />
+    <link rel='stylesheet' href="css/fontawesome-all.css">
+    <link rel='stylesheet' href="//fonts.googleapis.com/css?family=Inconsolata:400,700">
+</head>
+<!--jQuery-->
+<script src="jquery/jquery.js"></script>
+
+<body>
+    <div class="banner-top container-fluid" id="home">
+        <!-- header -->
+        <header>
+            <div class="row">
+                <div class="col-md-3 top-info text-left mt-lg-4">
+                    <h6>Kapcsolat</h6>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                        </li>
+                        <li class="number-phone mt-3">+36 20 123 4567</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 logo text-center">
+                    <h1 class="logoa">
+                        <a class="navbar-brand" href="index.html"> Magyar Sajt Áruház </a>
+                    </h1>
+                    <hr>
+                </div>
+
+                <div class="col-md-3 top-info-cart text-right mt-lg-4">
+                    <ul class="cart-inner-info">
+                        <li class="button-log">
+                            <a class="btn-open" href="#">
+                                <span class="fa fa-user" aria-hidden="true"></span>
+                            </a>
+                        </li>
+                        <li class="galssescart galssescart2 cart cart box_1">
+                            <form action="#" method="post" class="last">
+                                <input type="hidden" name="cmd" value="_cart">
+                                <input type="hidden" name="display" value="1">
+                                <button class="top_googles_cart" type="submit" name="submit" value="">Kosár<i
+                                        class="fas fa-cart-arrow-down"></i>
+                                </button>
+                            </form>
+                        </li>
+                    </ul>
+                    <!---->
+                    <div class="overlay-login text-left">
+                        <button type="button" class="overlay-close1">
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                        </button>
+                        <div class="wrap">
+                            <h5 class="text-center mb-4">Jelentkezz be!</h5>
+                            <div class="login p-5 bg-dark mx-auto mw-100">
+                                <form action="#" method="post">
+                                    <div class="form-group">
+                                        <label class="mb-2">Email cím</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp" placeholder="" required="">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="mb-2">Jelszó</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1"
+                                            placeholder="" required="">
+                                    </div>
+                                    <div class="form-check mb-2">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Pipálj ki</label>
+                                    </div>
+                                    <a href="../../404.html"><button type="submit"
+                                            class="btn btn-primary submit mb-4">Bejelentkezés</button></a>
+                                </form>
+                            </div>
+                            <!---->
+                        </div>
+                    </div>
+                    <!---->
+                </div>
+            </div>
+            <label class="top-log mx-auto"></label>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light top-header mb-2">
+
+                <button class="navbar-toggler mx-auto" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-mega mx-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link ml-lg-0" href="index.html">Kezdőlap
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Rólunk</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="shop.html">Áruház</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Kapcsolat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../forras.html">Források</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <!-- //header -->
+        <!-- banner -->
+        <div class="banner">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="carousel-caption text-center">
+                            <h3>Pannonia Emmentáli sajt</h3>
+                            <a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Vásárolj most!</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item item2">
+                        <div class="carousel-caption text-center">
+                            <h3>Camembert sajt</h3>
+                            <a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Vásárolj most!</a>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item item3">
+                        <div class="carousel-caption text-center">
+                            <h3>Pálpusztai sajt</h3>
+                            <a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Vásárolj most!</a>
+
+                        </div>
+                    </div>
+                    <div class="carousel-item item4">
+                        <div class="carousel-caption text-center">
+                            <h3>Trappista sajt</h3>
+                            <a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Vásárolj most!</a>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Előző</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Következő</span>
+                </a>
+            </div>
+            <!--//banner -->
+        </div>
+    </div>
+    <!--//banner-sec-->
+    <section class="banner-bottom-wthreelayouts py-lg-5 py-3">
+        <div class="container-fluid">
+            <div class="inner-sec-shop px-lg-4 px-3">
+                <h3 class="tittle-w3layouts my-lg-4 my-4">Kiemelt ajánlataink </h3>
+                <div class="row">
+                    <!-- ------------------------------------------------------------------------- -->
+                    <div class="col-md-3 product-men women_two">
+                        <div class="product-googles-info googles">
+                            <div class="men-pro-item">
+                                <div class="men-thumb-item">
+                                    <img src="images/s1.png" class="img-fluid" alt="">
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <a href="products/mizo.html" class="link-product-add-cart">Megnézem</a>
+                                        </div>
+                                    </div>
+                                    <span class="product-new-top">Új termék</span>
+                                </div>
+                                <div class="item-info-product">
+                                    <div class="info-product-price">
+                                        <div class="grid_meta">
+                                            <div class="product_price">
+                                                <h4>
+                                                    <a href="products/mizo.html">MIZO Trapista Sajt</a>
+                                                </h4>
+                                                <div class="grid-price mt-2">
+                                                    <span class="money ">3000 Ft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="googles single-item hvr-outline-out">
+                                            <form action="#" method="post">
+                                                <input type="hidden" name="cmd" value="_cart">
+                                                <input type="hidden" name="add" value="1">
+                                                <input type="hidden" name="googles_item" value="MIZO Trapista Sajt">
+                                                <input type="hidden" name="amount" value="3000 Ft">
+                                                <button type="submit" class="googles-cart pgoogles-cart">
+                                                    <i class="fas fa-cart-plus"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-men women_two">
+                        <div class="product-googles-info googles">
+                            <div class="men-pro-item">
+                                <div class="men-thumb-item">
+                                    <img src="images/s2.png" class="img-fluid" alt="">
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <a href="products/karavan.html" class="link-product-add-cart">Megnézem</a>
+                                        </div>
+                                    </div>
+                                    <span class="product-new-top">Új termék</span>
+                                </div>
+                                <div class="item-info-product">
+                                    <div class="info-product-price">
+                                        <div class="grid_meta">
+                                            <div class="product_price">
+                                                <h4>
+                                                    <a href="products/karavan.html">KARAVÁN Füstölt Sajt</a>
+                                                </h4>
+                                                <div class="grid-price mt-2">
+                                                    <span class="money ">4000 Ft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="googles single-item hvr-outline-out">
+                                            <form action="#" method="post">
+                                                <input type="hidden" name="cmd" value="_cart">
+                                                <input type="hidden" name="add" value="1">
+                                                <input type="hidden" name="googles_item" value="KARAVÁN Füstölt Sajt">
+                                                <input type="hidden" name="amount" value="4000 Ft">
+                                                <button type="submit" class="googles-cart pgoogles-cart">
+                                                    <i class="fas fa-cart-plus"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-men women_two">
+                        <div class="product-googles-info googles">
+                            <div class="men-pro-item">
+                                <div class="men-thumb-item">
+                                    <img src="images/s3.png" class="img-fluid" alt="">
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <a href="products/medve.html" class="link-product-add-cart">Megnézem</a>
+                                        </div>
+                                    </div>
+                                    <span class="product-new-top">Új termék</span>
+                                </div>
+                                <div class="item-info-product">
+                                    <div class="info-product-price">
+                                        <div class="grid_meta">
+                                            <div class="product_price">
+                                                <h4>
+                                                    <a href="products/medve.html">MEDVE Sajt</a>
+                                                </h4>
+                                                <div class="grid-price mt-2">
+                                                    <span class="money ">600 Ft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="googles single-item hvr-outline-out">
+                                            <form action="#" method="post">
+                                                <input type="hidden" name="cmd" value="_cart">
+                                                <input type="hidden" name="add" value="1">
+                                                <input type="hidden" name="googles_item" value="MEDVE sajt">
+                                                <input type="hidden" name="amount" value="600 Ft">
+                                                <button type="submit" class="googles-cart pgoogles-cart">
+                                                    <i class="fas fa-cart-plus"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 product-men women_two">
+                        <div class="product-googles-info googles">
+                            <div class="men-pro-item">
+                                <div class="men-thumb-item">
+                                    <img src="images/s4.png" class="img-fluid" alt="">
+                                    <div class="men-cart-pro">
+                                        <div class="inner-men-cart-pro">
+                                            <a href="products/pannon.html" class="link-product-add-cart">Megnézem</a>
+                                        </div>
+                                    </div>
+                                    <span class="product-new-top">Új termék</span>
+                                </div>
+                                <div class="item-info-product">
+                                    <div class="info-product-price">
+                                        <div class="grid_meta">
+                                            <div class="product_price">
+                                                <h4>
+                                                    <a href="products/pannon.html">PANNÓNIA Ementáli</a>
+                                                </h4>
+                                                <div class="grid-price mt-2">
+                                                    <span class="money ">800 Ft</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="googles single-item hvr-outline-out">
+                                            <form action="#" method="post">
+                                                <input type="hidden" name="cmd" value="_cart">
+                                                <input type="hidden" name="add" value="1">
+                                                <input type="hidden" name="googles_item" value="PANNÓNIA Ementáli">
+                                                <input type="hidden" name="amount" value="800 Ft">
+                                                <button type="submit" class="googles-cart pgoogles-cart">
+                                                    <i class="fas fa-cart-plus"></i>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!------------------------------------------------------------------------------------>
+                </div>
+            </div>
+            <!-- video -->
+            <div class="testimonials2 py-lg-4 py-3 mt-4">
+                <div class="testimonials-inner py-lg-4 py-3">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+
+                            <video id="videoPlayer" controls loop autoplay>
+                                <source src="videos/mizoreklam.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <br>
+                            <div class="videoButtons">
+                                <button class="videoButtons2" onclick="togglePlayPause()">Indítás / Leállítás</button>
+                                <button class="videoButtons2" onclick="decreaseVolume()">Halk</button>
+                                <button class="videoButtons2" onclick="increaseVolume()">Hangos</button>
+                                <button class="videoButtons2" onclick="mute()">Néma</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /testimonials -->
+            <div class="testimonials py-lg-4 py-3 mt-4">
+                <div class="testimonials-inner py-lg-4 py-3">
+                    <h3 class="tittle-w3layouts text-center my-lg-4 my-4">Vélemények</h3>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="carousel-item active">
+                                <div class="testimonials_grid text-center">
+                                    <h3>Krizsán Anna</h3>
+                                    <label>Magyarország</label>
+                                    <p>Imádom a Magyar Sajt Áruházat! Mindig izgalmas és friss választék vár, és a
+                                        sajtok minősége egyszerűen páratlan. A webshop könnyen áttekinthető és
+                                        használható, így gyorsan megtalálom a kedvenc sajtomat vagy új ízeket is
+                                        felfedezhetek. A rendelés folyamata sima és gyors, a csomag pedig mindig
+                                        gondosan becsomagolva érkezik meg hozzám. A csapat pedig mindig rendkívül
+                                        segítőkész és barátságos, mindig készek válaszolni a kérdéseimre és javaslatokat
+                                        adni. Köszönöm, hogy ilyen fantasztikus élményben lehet részem minden vásárlás
+                                        alkalmával!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonials_grid text-center">
+                                    <h3>Szalóczy Krisztián</h3>
+                                    <label>Magyarország</label>
+                                    <p>Minden alkalommal, amikor a Magyar Sajt Áruházból vásárolok, csak elragadtatás és
+                                        elégedettség fogad. A webshop könnyen navigálható, így könnyedén megtalálom a
+                                        kedvenc sajtokat és új ízeket is felfedezhetek. A termékek minősége kiváló, és
+                                        mindig frissen érkeznek. A gyors és hatékony szállításnak köszönhetően gyorsan
+                                        megkapom a rendelésemet, így mindig friss sajtokkal tudom gazdagítani az
+                                        étkezéseimet. Nagyon hálás vagyok a Magyar Sajt
+                                        Áruháznak, hogy ilyen fantasztikus élményeket nyújtanak minden egyes vásárlás
+                                        alkalmával!</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="testimonials_grid text-center">
+                                    <h3>Petró Ádám</h3>
+                                    <label>Magyarország</label>
+                                    <p>Fantasztikus élmény volt a vásárlás a Magyar Sajt Áruházban! Imádtam a széles
+                                        választékot, amelyben mindenféle ízű és minőségű sajtot megtaláltam, amire csak
+                                        vágytam. A weboldal könnyen navigálható volt, és nagyszerű volt látni, hogy
+                                        minden termék részletes leírással rendelkezik, így könnyen dönthettem. Az
+                                        rendelésem gyorsan és biztonságosan érkezett meg, és a sajtok frissek és
+                                        ízletesek voltak! Nagyon elégedett vagyok a szolgáltatással és biztosan
+                                        visszatérek újabb vásárlásokra!</p><br>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev test" href="#carouselExampleControls" role="button"
+                                data-slide="prev">
+                                <span class="fa s f a-long-arrow-alt-left"></span>
+                                <span class="sr-only">Előző</span>
+                            </a>
+                            <a class="carousel-control-next test" href="#carouselExampleControls" role="button"
+                                data-slide="next">
+                                <span class="fa s f a-long-arrow-alt-right" aria-hidden="true"></span>
+                                <span class="sr-only">Következő</span>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- //testimonials -->
+            <br>
+            <div class="fromBtn-container">
+                <button id="formBtn">Vegyél részt a felmérésben!</button>
+            </div>
+            <div id="popup-form">
+                <h4>Töltsd ki az űrlapot!</h4>
+                <form action="">
+                    <label for="name">Név:</label>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="name" class="error" id="error-name"></label><br>
+                    <label for="email">E-mail:</label>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="email" class="error" id="error-email"></label><br>
+
+                    <label for="dateOB">Szül. idő:</label>
+                    <input type="date" id="dateOB" name="dateOB" min="1900-01-01" max="2025-01-01"><br><br>
+
+                    <input type="radio" id="gender" name="gender" value="Férfi">
+                    <label for="gender">Férfi</label>
+
+                    <input type="radio" id="female" name="gender" value="Nő">
+                    <label for="female">Nő</label><br><br>
+
+                    <label for="Sajtok">Kedvenc sajtod:</label>
+                    <datalist id="sajt">
+                        <option value="Mizo Sajt">
+                        <option value="Karaván Sajt">
+                        <option value="Medve Sajt">
+                        <option value="Pannonia Sajt">
+                    </datalist>
+                    <input list="sajt" id="favSajt" name="favSajt"><br><br>
+
+                    <label for="color">Kedvenc színed:</label>
+                    <input type="color" id="selectColor" name="selectColor"><br><br>
+
+                    <label for="satisfaction">Mennyire voltál megelégedve webshopunkkal? (1-10)</label>
+                    <input type="range" id="satisfaction" name="satisfaction" min="1" max="10" value="5">
+                    <div id="satisfactionValue">5</div>
+                    <!--
+                    <label for="message">Üzenet:</label><br>
+                    <textarea id="message" name="message"></textarea><br>-->
+
+                    <label for="agree">
+                        <input type="checkbox" id="agree" name="agree">
+                        Hozzájárulok adataim marketing célú felhasználásához.
+                    </label><br><br>
+
+                    <input id="form-btn" type="reset" value="Reset">
+                    <input id="form-btn" type="submit" value="Küldés" onclick="showAlert()">
+                </form>
+            </div>
+
+            <div id="displayData"></div>
+
+    </section>
+
+    <!--footer -->
+    <footer class="py-lg-5 py-3">
+        <div class="container-fluid px-lg-5 px-3">
+            <div class="row footer-top-w3layouts">
+                <div class="col-lg-3 footer-grid-w3ls">
+                    <div class="footer-title">
+                        <h3>Rólunk</h3>
+                    </div>
+                    <div class="footer-text">
+                        <p>Kalandozz az ízek világában a mi sajtkollekciónkkal, amely minden ízlésnek és vágyaknak
+                            megfelel! Fedezd fel a világ különböző tájairól származó sajtkészítő mesterek remekeit
+                            egyetlen helyen, ahol a hagyomány és a kreativitás találkozik.</p>
+                        <ul class="footer-social text-left mt-lg-4 mt-3">
+
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-facebook-f"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-twitter"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-google-plus-g"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-linkedin-in"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fas fa-rss"></span>
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="#">
+                                    <span class="fab fa-vk"></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls">
+                    <div class="footer-title">
+                        <h3>Elérhetőség</h3>
+                    </div>
+                    <div class="contact-info">
+                        <h4>Székhely :</h4>
+                        <p>Ebes, Zsong völgy u., 4211, Magyarország.</p>
+                        <div class="phone">
+                            <h4>Kapcsolat :</h4>
+                            <p>Telefonszám : +36 20 123 5678</p>
+                            <p>Email :
+                                <a href="mailto:info@sajtaruhaz.hu">info@sajtaruhaz.hu</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls">
+                    <div class="footer-title">
+                        <h3>Linkek</h3>
+                    </div>
+                    <ul class="links">
+                        <li>
+                            <a href="index.html">Kezdőlap</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Rólunk</a>
+                        </li>
+                        <li>
+                            <a href="404.html">Error</a>
+                        </li>
+                        <li>
+                            <a href="shop.html">Áruház</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Kapcsolat</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 footer-grid-w3ls">
+                    <div class="footer-title">
+                        <h3>Hírlevél</h3>
+                    </div>
+                    <div class="footer-text">
+                        <p>Iratkozz fel a hírlevelünkre, hogy azonnal értesülhess a legfrissebb ajánlatainkról.</p>
+                        <form action="#" method="post">
+                            <input class="form-control" type="email" name="Email" placeholder="Írd be az Email címed..."
+                                required="">
+                            <button class="btn1">
+                                <i class="far fa-envelope" aria-hidden="true"></i>
+                            </button>
+                            <div class="clearfix"> </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright mt-4">
+                <p class="copy-right text-center ">&copy; 2024 All Rights Reserved | Készítette Szabó Marcell </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    <script src="js/form-video.js"></script>
+    <!-- cart-js -->
+    <script src="js/minicart.js"></script>
+    <script>
+        googles.render();
+
+        googles.cart.on('googles_checkout', function (evt) {
+            var items, len, i;
+
+            if (this.subtotal() > 0) {
+                items = this.items();
+
+                for (i = 0, len = items.length; i < len; i++) { }
+            }
+        });
+    </script>
+    <!-- //cart-js -->
+    <script>
+        $(document).ready(function () {
+            $(".button-log a").click(function () {
+                $(".overlay-login").fadeToggle(200);
+                $(this).toggleClass('btn-open').toggleClass('btn-close');
+            });
+        });
+        $('.overlay-close1').on('click', function () {
+            $(".overlay-login").fadeToggle(200);
+            $(".button-log a").toggleClass('btn-open').toggleClass('btn-close');
+            open = false;
+        });
+    </script>
+    <!-- carousel -->
+    <script src="../js/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 2,
+                        nav: false
+                    },
+                    900: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 4,
+                        nav: true,
+                        loop: false,
+                        margin: 20
+                    }
+                }
+            })
+        })
+    </script>
+
+    <!-- //end-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 900);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <!--// end-smoth-scrolling -->
+
+    <script src="../js/bootstrap.js"></script>
+    <!-- js file -->
+</body>
+
+</html>

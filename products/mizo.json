@@ -1,0 +1,17 @@
+{
+  "termek_neve": "Mizo Trappista sajt",
+  "marka": "Mizo",
+  "sajttipus": "Trappista",
+  "tomeg": 1000,
+  "aras": 3000,
+  "osszetevok": [
+    "tej",
+    "só",
+    "kalcium-klorid",
+    "tejzára"
+  ],
+  "szallitas": {
+    "szallito": "SajtExpressz",
+    "szallitasi_ido": "1-2 munkanap"
+  }
+}

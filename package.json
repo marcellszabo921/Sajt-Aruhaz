@@ -1,0 +1,26 @@
+{
+  "name": "webtechfu7omc",
+  "version": "1.0.0",
+  "description": "magyar sajt aruhaz weboldala",
+  "main": "server.js",
+  "scripts": {
+    "test": "ng test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcellszabo921/FU7OMCWebTech.git"
+  },
+  "keywords": [
+    "sajt"
+  ],
+  "author": "Szabo Marcell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcellszabo921/FU7OMCWebTech/issues"
+  },
+  "homepage": "https://github.com/marcellszabo921/FU7OMCWebTech#readme",
+  "dependencies": {
+    "figlet": "^1.7.0"
+  }
+}

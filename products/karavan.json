@@ -1,0 +1,17 @@
+{
+    "termek_neve": "Karaván Füstölt sajt",
+    "marka": "Karaván",
+    "sajttipus": "Füstölt",
+    "tomeg": 1000,
+    "aras": 4000,
+    "osszetevok": [
+        "tej",
+        "só",
+        "kalcium-klorid",
+        "tejzára"
+    ],
+    "szallitas": {
+        "szallito": "SajtFutár",
+        "szallitasi_ido": "3-4 munkanap"
+    }
+}
