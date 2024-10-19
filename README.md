@@ -1,2 +1,2 @@
 # Sajt-Aruhaz
-HTML/CSS/JavaScript projekt
+HTML/CSS/JavaScript project
